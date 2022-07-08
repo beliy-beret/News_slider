@@ -2,7 +2,7 @@
   "name": "news_slider",
   "version": "1.0.0",
   "description": "",
-  "source": "index.html",
+  "source": "./src/index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
