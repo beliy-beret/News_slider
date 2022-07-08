@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function startAutoSlide() {
   setTimeout(() => {
-    setInterval(() => nextSlide(), 1500);
+    setInterval(() => nextSlide(), 3000);
   }, 4000);
 }
 
