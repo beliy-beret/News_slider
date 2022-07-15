@@ -6,14 +6,7 @@ const range = document.querySelector(".range__percent");
 
 document.addEventListener("DOMContentLoaded", function() {
   setRangeWidth(slideList.length);
-  startAutoSlide();
 });
-
-function startAutoSlide() {
-  setTimeout(() => {
-    setInterval(() => nextSlide(), 3000);
-  }, 4000);
-}
 
 function addActiveClass(item) {
   item.classList.add("active");
